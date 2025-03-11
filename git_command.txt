@@ -1,0 +1,8 @@
+git init = use for initialize empty repo 
+git status = use for show file status 
+git add = add file in staging area.
+git rm = remove file in staging area
+git add . = add all files in staging area.
+git commit -m "message" = add all files in repository.
+git rm = delete file in repository but not a permentely 
+git restore = restore deleted file 
