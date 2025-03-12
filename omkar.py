@@ -1,1 +1,0 @@
-print ("my name is omkar, i am form pune.")
