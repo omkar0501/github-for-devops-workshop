@@ -37,4 +37,8 @@ git restore = restore deleted file
   clear
   git remote -v
   git push origin master
-  clear
+  clear  
+
+
+this is my  new changes in my repository 
+omkar ranjit jadhav 
