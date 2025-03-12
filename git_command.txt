@@ -6,3 +6,35 @@ git add . = add all files in staging area.
 git commit -m "message" = add all files in repository.
 git rm --cached= delete file in repository but not a permentely 
 git restore = restore deleted file 
+   git status
+   git commit -m "new"
+   clear
+   ls
+   clear
+   git rm .\omkar.py
+   ls
+   clear
+   git status
+   git restore --staged
+   git status
+   git restore --unstage omkar.py
+   clear
+   git status
+   git reset head omkar.py
+   git status
+   git restore
+   git status
+   git add .
+   git status
+   git restore --staged omkar.py  # Unstage the deletion
+   git checkout -- omkar.py       # Restore the file
+   git status
+   clear
+   clear
+   git remote add origin 
+   git remote -v
+  git remote set-url origin  
+  clear
+  git remote -v
+  git push origin master
+  clear
